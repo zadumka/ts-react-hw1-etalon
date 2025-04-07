@@ -1,7 +1,8 @@
-const usernames: string[] = ["alice", "bob", "charlie"];
-const usernames: string[] = ["alice", "bob", "charlie"];
-
-const ratings: number[] = [4.5, 3.8, 5];
+const product: Product = {
+  id: 1,
+  title: "Tablet",
+  description: "Compact and fast",
+};
 
 interface Product {
   readonly id: number;
